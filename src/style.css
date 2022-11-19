@@ -6,7 +6,6 @@ h1 {
   font-size: 80%;
   text-align: center;
   font-family: "raleway";
-
   padding-top: 50px;
 }
 h2,
@@ -16,6 +15,7 @@ p {
 }
 h2,
 h3 {
+  font-style: italic;
   text-align: center;
 }
 .navbar {
@@ -57,7 +57,16 @@ li {
   padding: 20px;
   background-color: blue;
 }
-.card {
+#projects {
   display: flex;
   justify-content: center;
+  padding: 20px;
+  margin: 40px 0;
+}
+.card-body {
+  font-family: arial;
+}
+.wrap {
+  background-color: rgb(124, 124, 202);
+  padding-bottom: 45px;
 }
