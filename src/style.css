@@ -112,3 +112,8 @@ i {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
