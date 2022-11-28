@@ -1,35 +1,53 @@
 body {
-  background-color: !important;
+  background-color: white !important;
 }
 :root {
   --primary-color: rgb(22, 11, 25);
+  --accent-color: rgb(95, 72, 142);
+  --button-color: rgb(79, 66, 111);
+  --button-text-color: rgb(199, 177, 184);
+}
+.container {
+  margin: 0 0 0 0 !important;
+  min-width: 100%;
+  --bs-gutter-x: none;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 h1 {
   color: var(--primary-color);
   font-size: 80%;
   text-align: center;
-  font-family: "raleway";
+  font-family: "poppins";
   padding-top: 50px;
 }
-h2,
+.name {
+  font-size: 76px;
+  font-family: "poppins";
+  color: rgb(57, 32, 106);
+}
 h3,
 p {
-  font-family: "raleway";
+  text-align: center;
+  font-family: "poppins";
 }
-h2,
+h2 {
+  font-family: "poppins";
+  text-align: center;
+  font-size: xx-large;
+}
 h3 {
   font-style: italic;
   text-align: center;
 }
 .navbar {
-  font-family: "raleway";
-  margin: 0;
+  font-family: "poppins";
   background: linear-gradient(
     110.6deg,
-    rgb(156, 116, 129) -18.3%,
-    rgb(67, 54, 74) 16.4%,
-    rgb(47, 48, 67) 68.2%,
-    rgb(27, 23, 36) 99.1%
+    rgb(199, 177, 184) -18.3%,
+    rgb(148, 124, 161) 16.4%,
+    rgb(89, 91, 135) 68.2%,
+    rgb(79, 66, 111) 99.1%
   );
 }
 #img {
@@ -38,17 +56,6 @@ h3 {
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
 }
-#contact-links {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
-.button {
-  display: block;
-  margin-top: 0 auto;
-  text-decoration: none;
-  background: blue;
-}
 ul {
   display: inline;
   list-style: none;
@@ -56,23 +63,55 @@ ul {
 li {
   display: flex;
 }
-.btn-warning {
-  padding: 20px;
-  background-color: blue;
-}
 #projects {
+  margin: 0 auto;
+  padding: 40px;
   display: flex;
-  justify-content: center;
-  padding: 20px;
-  margin: 40px 0;
+  justify-content: space-evenly;
 }
 .card-body {
   font-family: arial;
 }
 .wrap {
-  background-color: rgb(124, 124, 202);
-  padding-bottom: 45px;
+  margin: 0 !important;
+  background-color: rgb(247, 244, 249);
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
-.container {
-  --bs-gutter-x: 0rem;
+.col-sm-4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 0 auto;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 2px 3px 4px rgb(205, 203, 206);
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid var(--button-color);
+  padding: 15px;
+  text-decoration: none;
+  margin: 15px auto;
+  transition: 200ms all ease-in-out;
+}
+.button:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid rgb(148, 124, 161);
+  background-color: rgb(148, 124, 161);
+}
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+i {
+  color: var(--button-color);
+  font-size: 30px;
 }
