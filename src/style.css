@@ -23,6 +23,7 @@ body {
     rgb(89, 91, 135) 68.2%,
     rgb(79, 66, 111) 99.1%
   );
+  opacity: 80%;
 }
 .col-sm-4 {
   display: flex;
@@ -71,6 +72,9 @@ ul {
 }
 li {
   display: flex;
+}
+.weather {
+  margin-top: 100px;
 }
 .button {
   font-family: "anybody";
@@ -135,7 +139,11 @@ i {
   h3 {
     font-size: 25px;
   }
-  h2.weather {
-    margin: 0 auto;
+  .weather {
+    margin-top: 0;
+  }
+  .wrap {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
