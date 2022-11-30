@@ -135,4 +135,7 @@ i {
   h3 {
     font-size: 25px;
   }
+  h2.weather {
+    margin: 0 auto;
+  }
 }
