@@ -74,7 +74,11 @@ li {
   display: flex;
 }
 .weather {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+.finished {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .button {
   font-family: "anybody";
@@ -140,10 +144,14 @@ i {
     font-size: 25px;
   }
   .weather {
+    padding-top: 0;
     margin-top: 0;
   }
   .wrap {
     padding-top: 25px;
     padding-bottom: 25px;
+  }
+  .button.launch {
+    margin-bottom: 75px;
   }
 }
