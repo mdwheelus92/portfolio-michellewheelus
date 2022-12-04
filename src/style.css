@@ -102,6 +102,13 @@ li {
   border: 1px solid rgb(148, 124, 161);
   background-color: rgb(148, 124, 161);
 }
+.link {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.link:hover {
+  color: var(--button-text-color);
+}
 footer {
   text-align: center;
   display: flex;
