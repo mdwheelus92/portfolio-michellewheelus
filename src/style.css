@@ -181,3 +181,16 @@ i {
     margin-bottom: 75px;
   }
 }
+.code-footer {
+  font-family: var(--primary-font-family);
+  padding: 20px;
+  text-align: center;
+  color: var(--button-text-color);
+}
+.code-link {
+  text-decoration: none;
+  color: var(--button-text-color);
+}
+.code-link:hover {
+  color: var(--accent-color);
+}
