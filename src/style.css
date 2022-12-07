@@ -6,6 +6,7 @@ body {
   --accent-color: rgb(95, 72, 142);
   --button-color: rgb(79, 66, 111);
   --button-text-color: rgb(199, 177, 184);
+  --primary-font-family: "anybody";
 }
 .container {
   margin: 0 0 0 0 !important;
@@ -38,7 +39,7 @@ h1 {
   font-family: "anybody";
   padding-top: 50px;
 }
-.wrap {
+#wrap-top {
   margin: 0 !important;
   background-color: rgb(247, 244, 249);
   padding-bottom: 100px;
@@ -84,7 +85,8 @@ li {
   font-family: "anybody";
   display: flex;
   justify-content: center;
-  max-width: 30%;
+  max-width: 150px;
+  min-width: 150px;
   text-align: center;
   border-radius: 30px;
   box-shadow: 2px 3px 4px rgb(205, 203, 206);
@@ -110,10 +112,27 @@ li {
   color: var(--button-text-color);
 }
 footer {
+  padding-top: 0;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   margin: 50px auto;
+}
+#wrap-footer {
+  margin: 0, auto;
+  background-color: rgb(247, 244, 249);
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 40px;
+}
+#footer-wrap h3 {
+  padding: 0;
+  font-size: 20px;
+}
+#footer-wrap-button {
+  font-size: 20px;
 }
 i {
   color: var(--button-color);
